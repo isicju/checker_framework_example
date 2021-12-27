@@ -24,15 +24,15 @@ public class Main {
             System.out.println("length of our string is: " + nowItsNotNullString.length());
         });
     }
-// to see error uncomment lines below
+
+    // to see error uncomment lines below
 //    static class User {
 //        @NonNull
 //        private String id;
 //        private int age;
 //
-//        public User( String id, int age) {
+//        public User(String id) {
 //            this.id = id;
-//            this.age = age;
 //        }
 //
 //        public String getId() {
@@ -52,23 +52,4 @@ public class Main {
 //        }
 //    }
 
-//    public static class UserBuilder {
-//        @NonNull
-//        private String id;
-//        private int age;
-//
-//        public UserBuilder id( String id) {
-//            this.id = id;
-//            return this;
-//        }
-//
-//        public UserBuilder age(int age) {
-//            this.age = age;
-//            return this;
-//        }
-//
-//        public Main.User build() {
-//            return new Main.User(id, age);
-//        }
-//    }
 }
